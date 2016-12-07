@@ -2,9 +2,9 @@ verify email address before sending email for next level email verification with
 - [x] disposable check
 - [x] trusted domain check
 - [x] smtp check
-- []  ~~mx check~~ (commented /enough with smtp check)
-- [] blacklist email address
-- [] admin ui for manage list etc
+- [ ]  ~~mx check~~ (commented /enough with smtp check)
+- [ ] blacklist email address
+- [ ] admin ui for manage list etc
 
 usage : http://host/folder/u/*email address*
 
