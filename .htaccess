@@ -1,0 +1,16 @@
+# protect file
+
+<Files "disposable.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files "trusted_domain.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+
+# rewrite URL
+
+RewriteEngine On
+RewriteRule ^u/(.+)$ api.php?email=$1
